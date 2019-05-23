@@ -5,4 +5,4 @@ before_install:
   - docker build -t m4tiqqq/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run m4tiqqq/docker-react npm run test -- --coverage
+  - docker run m4tiqqq/docker-react npm run test-ci
